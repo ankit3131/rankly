@@ -1,0 +1,125 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lufga:wght@300;400;500;600;700&display=swap');
+:root {
+    --bg-color: #FD853A;
+--grey-color:#344054;
+--first-color:#171717;
+}
+body{
+    font-family: 'Lufga', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600 !important;
+    color:var(#171717);
+    font-size: 90px;
+}
+.text_left{
+    font-weight: 500;
+    font-size: 18px;
+    color:var(--grey-color);
+}
+.second-color{
+    background-color:var(--bg-color);
+    
+}
+.heading_text{
+    color: #FCFCFD;
+}
+.second-text{
+    color: var(--bg-color);
+}
+.text_right{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color:#171717;
+}
+.service_section{
+    color:#FCFCFD;
+}
+.custome_header{
+    border-radius: 100px;
+    margin-top: 2em;
+}
+.custome_header a.active{
+    background-color: var(--bg-color);
+    color: #fff;
+}
+.custome_header a{
+
+    border-radius: 60px;
+    padding: 20px 40px 20px 40px;
+}
+.custome_header a:hover{
+    background-color: var(--bg-color);
+color: #fff;
+}
+
+ .custom_btn{
+    z-index: 11111;
+    justify-content: center;
+    text-align: center;
+    margin: -49px auto;
+    position: relative;
+    top: -80px;
+    left:4em;
+    /* background: red; */
+    width: 281px;
+    border-radius: 60px;
+    border: 1px solid #fff;
+ }
+ .custom_img{ 
+    margin-top: -50px !important;
+ }
+.Experince .font-bold{
+font-weight: 600;
+font-size: 33px;
+}
+ .service_section{
+    background-image: url('img/bg_service1.png');
+ }
+
+ .service_section {
+    background-image: url('img/bg_service1.png'), url('img/bg_service2.png'); 
+    background-position: center, center !important;
+    background-size: cover, cover !important;
+    background-repeat: no-repeat, no-repeat !important;
+}
+.custome_code .rounded-lg{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testimonials{
+    background-image: url('img/bg_service2.png'); 
+    background-position: center, center;
+
+}
+.design{
+--tw-translate-y: 18px;
+}
+
+.footer{
+    background-color: #272727;
+}
+.logosection .font-semibold{
+    display: flex;
+    align-self: center;
+}
+.design .text-lg{
+    font-size: 38px;
+}
+.design .mx-2{
+    color: #FD853A;
+}
+.service_section:hover {
+
+}
